@@ -130,8 +130,8 @@ fi
 #Installing Daemon
 cd ~
 rm -rf /usr/local/bin/hibera*
-wget https://github.com/Hiberabib/bib/releases/download/v1.0/BIB-1.0.0-ubuntu-daemon.tar.gz
-tar -xzvf BIB-1.0.0-ubuntu-daemon.tar.gz
+wget https://github.com/Hiberabib/bib/releases/download/v1.0.1/BIB-1.0.1-ubuntu-daemon.tar.gz
+tar -xzvf BIB-1.0.1-ubuntu-daemon.tar.gz
 sudo chmod -R 755 hibera-cli
 sudo chmod -R 755 hiberad
 cp -p -r hiberad /usr/local/bin
@@ -179,7 +179,7 @@ done
     hibera-cli stop
     sleep 5
 cd ~/.hibera && rm -rf blocks chainstate sporks
-cd ~/.hibera && wget https://github.com/Hiberabib/bib/releases/download/v1.0/bootstrap.zip
+cd ~/.hibera && wget https://github.com/Hiberabib/bib/releases/download/v1.0.1/bootstrap.zip
 cd ~/.hibera && unzip bootstrap.zip
 sudo rm -rf ~/.hibera/bootstrap.zip
 
