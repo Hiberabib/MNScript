@@ -72,8 +72,8 @@ This guide will assist you in setting up a HIBERA Masternode on a Linux Server r
 
 **Сongratulations you did it!**
 
-# Guide for HIBERA v1.0.1 MasterNode Update:
-The instructions below are designed for users currently running an older version of HIBERA v1.0.0 need update to v1.0.1
+# Guide for HIBERA v1.1.0 MasterNode Update:
+The instructions below are designed for users currently running an older version of HIBERA v1.0.1 need update to v1.1.0
 
 
 ```
